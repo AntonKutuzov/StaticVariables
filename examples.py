@@ -53,7 +53,7 @@ print([count_calls2() for _ in range(10)])
 print('\n---=== Using `@flags()` decorator ===---')
 """
 Flags is another extension of @static() decorator, which allows creating flags with predefined boolean values. Try 
-uncommenting the "return" values and see what happends.
+uncommenting the "return" values and see what happens.
 """
 
 print('The three flags are "called", "intermediate" and "ended"')
