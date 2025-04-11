@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "StaticVariables"
+version = "0.1.0"
+requires-python = ">= 3.12"
+authors = [
+    { name = "Antons Kutuzovs", email = "akutuzovsssss@gmail.com" }
+]
+description = "A decorator that allows a function to have static variables"
+readme = "README.md"
+license = "GPL-3.0-or-later"
+keywords = ["static", "variable", "function"]
+
+[project.urls]
+Homepage = "https://github.com/AntonKutuzov/StaticVariables"
